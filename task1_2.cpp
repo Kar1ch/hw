@@ -143,8 +143,8 @@ void print(list<Human> lst) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    Human h1(5, 6, 7, "Шибанов", "Михаил");
-    Human h2(5, 6, 7, "Швецова", "Оксана");
+    Human h1(5, 6, 7, "a", "a");
+    Human h2(5, 6, 7, "a", "b");
     Human h3;
     list<Human> l = { h1, h3 };
 
